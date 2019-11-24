@@ -1,0 +1,58 @@
+@import url(../layout/normalize.css);
+@import url(../layout/base.css);
+.header {
+  position: absolute;
+  width: 100%;
+  padding-top: 12px;
+  z-index: 1;
+  background: black; }
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header__wrapper {
+  margin-left: 15px; }
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.nav__item {
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .nav__item:after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px; }
+  .nav__item:nth-last-child(2):after {
+    display: none; }
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase; }
+
+.promo {
+  background-image: url("../../img/video-bg.png"); }
