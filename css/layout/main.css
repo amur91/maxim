@@ -118,7 +118,7 @@ table {
   font-size: 13px; }
 
 .promo {
-  background-image: url("./img/video-bg.png");
+  background-image: url("../img/video-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
