@@ -1,0 +1,47 @@
+.html, .body {
+    height: 100%;
+}
+body {
+    margin: 0px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+ul li {
+    list-style: none;
+}
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    font-weight: normal;
+}
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.section {
+    height: 100vh;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+.title {
+    @include gagalin();
+    font-size: 72px;
+    color: $yellow;
+    line-height: 1;
+}
